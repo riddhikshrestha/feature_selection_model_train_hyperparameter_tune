@@ -1,0 +1,8 @@
+## STEPS ##
+
+1. Divide the features based on indepenednt and dependent features
+2. Train test split of the dataset
+3. Standardize the dataset  # to make all dependent and indepenednt features to scale down to make same in order to train model quickly and reach
+at optimizaton as fast as possible. e.g. here height is measure in inches and weight is in kg,pound, if you use original data into model then model will took 
+too much time to come to it's Global Minima Points i.e. Gradient Descent or optimzation happen quickly
+4. Train the model using Linear Regression
